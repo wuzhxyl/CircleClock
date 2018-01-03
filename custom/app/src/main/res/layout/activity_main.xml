@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ilifesmart.custom.MainActivity">
+
+
+    <com.ilifesmart.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="1234567890abcqwertyuioplkjhgfd"
+        app:fontSize="30sp"
+        app:fontColor="#FFFFFF"
+        app:bgColor="#2F2F2F"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:id="@+id/circleTextView"
+        android:onClick="onViewClick"
+        android:visibility="gone"
+        />
+
+    <com.ilifesmart.widgets.CircleClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="16dp"
+        app:circlePointWidth="4dp"
+        />
+
+</RelativeLayout>

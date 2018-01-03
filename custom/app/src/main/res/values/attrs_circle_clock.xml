@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="CircleClock">
+        <attr name="hourColor" format="color"/>
+        <attr name="minusColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="backgroundColor" format="color" />
+        <attr name="circlePointWidth" format="dimension" />
+    </declare-styleable>
+</resources>
