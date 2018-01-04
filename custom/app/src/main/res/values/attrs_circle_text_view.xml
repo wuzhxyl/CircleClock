@@ -1,8 +1,0 @@
-<resources>
-    <declare-styleable name="CircleTextView">
-        <attr name="title" format="string"/>
-        <attr name="fontSize" format="dimension"/>
-        <attr name="fontColor" format="color"/>
-        <attr name="bgColor" format="color|reference"/>
-    </declare-styleable>
-</resources>
